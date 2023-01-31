@@ -1,0 +1,42 @@
+
+
+
+.fotos_media_section{
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+    .fotos_media{        
+        align-items: center;
+        border: $bordefotos;
+        padding : 10px;
+        border-radius: 25px;
+        width: 600px;
+        height: 450px;
+        margin: 10px;
+    .img_fotos{
+        align-items: center;
+        
+
+        .img_tamaño{
+            width: 575px;
+            height: 400px;
+            align-items: center;
+            border-radius: 25px;
+    .fotos_pie{
+        text-align: center;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        height: 400px;
+    }
+}
+}
+}
+}

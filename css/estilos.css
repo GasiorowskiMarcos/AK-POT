@@ -1,4 +1,40 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto:ital@1&display=swap");
+.fotos_media_section {
+  display: flex;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.fotos_media_section .fotos_media {
+  align-items: center;
+  border: 2px solid #007AFF;
+  padding: 10px;
+  border-radius: 25px;
+  width: 600px;
+  height: 450px;
+  margin: 10px;
+}
+.fotos_media_section .fotos_media .img_fotos {
+  align-items: center;
+}
+.fotos_media_section .fotos_media .img_fotos .img_tamaño {
+  width: 575px;
+  height: 400px;
+  align-items: center;
+  border-radius: 25px;
+}
+.fotos_media_section .fotos_media .img_fotos .img_tamaño .fotos_pie {
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -281,9 +317,4 @@ input[type=submit]:hover {
   form {
     width: 50%;
   }
-}
-.fotos_media_section {
-  display: flex;
-  flex-wrap: wrap; /* Ajusta los elementos a la anchura del contenedor */
-  justify-content: space-between; /* Alinea los elementos al espacio disponible */
 }/*# sourceMappingURL=estilos.css.map */
