@@ -249,29 +249,6 @@ input[type=submit]:hover {
   transition: all 0.5s ease-in-out;
 }
 
-.derechos {
-  color: #FFFFFF;
-  font-size: 14px;
-  text-shadow: 1px 0px 0px #007AFF;
-  box-shadow: 1px 1px 1px #BEE2F9;
-  padding: 5px 7px;
-  margin-top: 18px;
-  border-radius: 10px;
-  border: 2px solid #3866A3;
-  background: linear-gradient(to top, #63B8EE, #468CCF);
-  width: 100%;
-}
-
-.derechos a {
-  text-decoration: none;
-  text-align: center;
-}
-
-.derechos:hover {
-  color: #14396A;
-  background: #468CCF;
-  background: linear-gradient(to top, #468CCF, #63B8EE);
-}
 
 @media (min-width: 480px) {
   nav {
